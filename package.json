@@ -1,0 +1,16 @@
+{
+  "name": "whatsapp-ical-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp bot que muestra eventos iCal de los próximos 7 días",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "whatsapp-web.js": "^1.23.0",
+    "node-ical": "^0.16.1",
+    "qrcode-terminal": "^0.12.0",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^2.7.0"
+  }
+}
