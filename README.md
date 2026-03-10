@@ -22,7 +22,7 @@ Un bot de WhatsApp en Node.js que lee tu calendario (Google Calendar, Apple Cale
 
 1. **Clona el repositorio:**
    ```bash
-   git clone [https://github.com/Adrimax2222/whatsapp-ical-bot.git](https://github.com/TU-USUARIO/whatsapp-ical-bot.git)
+   git clone [https://github.com/Adrimax2222/whatsapp-ical-bot.git](https://github.com/Adrimax2222/whatsapp-ical-bot.git)
    cd whatsapp-ical-bot
 Instala las dependencias:
 
