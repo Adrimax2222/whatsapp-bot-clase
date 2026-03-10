@@ -9,7 +9,7 @@ const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-app.get('/', (req, res) => res.send('Bot activo'));
+app.get('/', (req, res) => res.send('Bot activo 🚀'));
 
 app.listen(PORT, '0.0.0.0', () => {
   console.log(`🌐 Servidor keep-alive escuchando en puerto ${PORT}`);
@@ -24,12 +24,12 @@ if (!ICAL_URL) {
   process.exit(1);
 }
 
-// ─── WhatsApp Client (CONFIGURACIÓN FINAL) ──────────────────────────────────
+// ─── WhatsApp Client (PREPARADO PARA GITHUB) ─────────────────────────────────
 const client = new Client({
   authStrategy: new LocalAuth(),
   puppeteer: {
-    // Usamos la ruta exacta que encontraste en tu Shell
-    executablePath: '/nix/store/qa9cnw4v5xkxyip6mb9kxqfq1z4x2dx1-chromium-138.0.7204.100/bin/chromium', 
+    // Busca la ruta en las variables de entorno, si no, usa la estándar
+    executablePath: process.env.CHROME_BIN || '/usr/bin/chromium-browser', 
     headless: true,
     args: [
       '--no-sandbox',
