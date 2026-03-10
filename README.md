@@ -60,5 +60,6 @@ Puedes cambiar la palabra que activa el bot modificando la constante TRIGGER en 
 
 JavaScript
 const TRIGGER = '@dynamicclass'; // Cámbialo por lo que quieras
+
 🤝 Contribuciones
 Las contribuciones son bienvenidas. Si tienes alguna mejora, abre una Issue o envía un Pull Request.
